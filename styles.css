@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+header img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+}
+header h1 {
+    margin: 10px 0;
+    color: #333;
+}
+header p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #667eea;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+section:hover {
+    transform: translateY(-5px);
+}
+h2 {
+    color: #667eea;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Lists and Items */
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #667eea;
+    border-radius: 5px;
+}
+.job, .project, .education {
+    margin-bottom: 30px;
+}
+.job h3, .project h3, .education h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+/* Buttons/Links */
+a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+.btn {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #5a67d8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 40px 10px;
+    }
+    section {
+        padding: 20px;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
